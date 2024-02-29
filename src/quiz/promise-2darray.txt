@@ -1,1 +1,7 @@
 Explain the code execution based on the order of the messages logged in src/quiz/promise-2darray.txt.
+
+The code goes through the case. If it is an array, it goes through and calls the function. if it is an array. Then it handles the case and sets the timeout for the event loop. 
+
+In the case that it isn't an array, the code goes through and rejects the promise. 
+
+New promise that is created runs on the main thread, so setTimeout is needed. This is also why the bad input is handled before the actual good promise.
